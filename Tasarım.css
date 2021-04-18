@@ -1,0 +1,117 @@
+@import url('./Fonts.css');
+
+html {
+    background: linear-gradient(45deg, #8e21e0 0%, #ad25e0 100%)
+}
+
+body {
+    margin: 0%;
+}
+
+::-webkit-scrollbar {
+    width: 0.01em;
+}
+
+a {
+    color: #00afff;
+    text-decoration: none;
+    transition: 0.75s;
+}
+
+a:hover {
+    color: #008fff
+}
+
+nav {
+    position: fixed;
+    padding: 1.5% 5%;
+    background: rgba(10, 10, 10, 0.875);
+    width: 100%;
+    transition: 0.25s
+}
+
+nav img#Logo {
+    width: 3.75%;
+    border-radius: 50%;
+    transition: 1s
+}
+
+nav a.Dugme {
+    position: absolute;
+    margin: 0% 15%;
+    top: 40%;
+    vertical-align: top;
+    color: #f5f5f5;
+    font-family: 'Uni Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.75s
+}
+
+nav a.Dugme:hover {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+div.Yazı {
+    margin: -1.5% 10%;
+    padding-top: 5%;
+}
+
+div.Yazı h1 {
+    font-family: 'Texturina', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    transition: 0.75s
+}
+
+div.Yazı ps {
+    margin-left: 5%
+}
+
+div.Yazı p {
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.75s;
+}
+
+div.DefterSayfası {
+    display: inline-block;
+    margin: 7.5% 5%;
+    padding: 0% 1%;
+    background: rgba(10, 10, 10, 0.925);
+    height: 25%;
+    width: 36.5%;
+    border-left: 6px solid #d0d0d0;
+    border-radius: 6px 0px 0px 6px;
+    transition: 0.75s
+}
+
+div.DefterSayfası h1 {
+    color: #fafafa;
+    font: bold 40px 'TRT', sans-serif;
+    transition: 0.75s
+}
+
+div.DefterSayfası p {
+    display: block;
+    color: #dcdcdc;
+    width: 50ch;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: 0.75s
+}
+
+div.DefterSayfasındanYazı {
+    margin: 7.5% 5%;
+}
+
+div.DefterSayfasındanYazı h1 {
+    font: bold 84px 'TRT', sans-serif;
+    text-align: left;
+    transition: 0.75s
+}
+
+div.DefterSayfasındanYazı p {
+    font: normal 18px 'Alte Haas Grotesk', sans-serif
+}

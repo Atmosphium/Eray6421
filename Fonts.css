@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Alte Haas Grotesk';
+    src: url('- Fonts/Alte Haas Grotesk.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Texturina';
+    src: url('- Fonts/Texturina.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'TRT';
+    src: url('- Fonts/TRT.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('- Fonts/Ubuntu.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('- Fonts/Uni Sans.otf')format('opentype')
+}
